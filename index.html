@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vorrath</title>
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./js/datos.json">
+</head>
+<body>
+    <header class="header-principal">
+        <!-- Barra de Navegación -->
+        <nav class="menu">
+            <div class="contenedor-logo">
+               <a href="./index.html"><img src="./imagenes/header-logo-dark.png" alt="logo de la empresa" class="logo"></a>
+            </div>
+            <div>
+                <ul class="contenedor-lista">
+                    <li><a href="./index.html" class="marca">Inicio</a></li>
+                    <li><a href="./views/galeria.html">Nuestros Trabajos</a></li>
+                    <li><a href="./views/presupuesto.html">Presupuestos</a></li>
+                    <li><a href="./views/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Foto de fondo Header -->
+        <div class="caja-header">
+            <div class="img-header">
+                <div class="caja-titulo">
+                    <h3 class="bienvenidos">Bienvenidos a</h3>
+                    <h1 class="titulo-header">¡VORRATH!</h1>
+                    <a href="./views/contacto.html" class="boton-header">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-principal">
+        <!-- Nuestros trabajos -->
+        <section class="section1">
+            <div class="titulo-main">
+                <h2 class="titulo-main">¡Algunos de nuestros trabajos!</h2>
+            </div>
+            <div class="todosLostrabajos">
+                <div class="muestras">
+                    <div class="contenedor-trabajos">
+                      <img src="./imagenes/trabajo1.png" alt="asiento de madera fina" class="img-trabajo1">
+                      <h3 class="titulo-trabajo1">"Ébano Real"</h3>
+                      <button class="cargarJsonBtn enlace-trabajo1"  data-url="./../json/ebano-real.json">¡Materiales!</button>
+                      <div class="resultado"></div>
+                    </div>
+                  </div>
+                <div class="muestras">
+                    <div class="contenedor-trabajos">
+                        <img src="./imagenes/trabajo2.jpg" alt="asiento de madera fina" class="img-trabajo2">
+                        <h3 class="titulo-trabajo1">"Cocina Élite"</h3>
+                        <button class="cargarJsonBtn enlace-trabajo1"  data-url="./../json/cocina-elite.json">¡Materiales!</button>
+                        <div class="resultado"></div>
+                    </div>
+                </div>
+                <div class="muestras">
+                    <div class="contenedor-trabajos">
+                        <img src="./imagenes/trabajo3.png" alt="asiento de madera fina" class="img-trabajo1">
+                        <h3 class="titulo-trabajo1">"Cocina de Alta Gama"</h3>
+                        <button class="cargarJsonBtn enlace-trabajo1"  data-url="./../json/cocina-alta-gama.json">¡Materiales!</button>
+                        <div class="resultado"></div>
+                    </div>
+                </div>
+                <div class="muestras">
+                    <div class="contenedor-trabajos">
+                        <img src="./imagenes/trabajo4.png" alt="asiento de madera fina" class="img-trabajo1">
+                        <h3 class="titulo-trabajo1">"Escritorio Arbóreo"</h3>
+                        <button class="cargarJsonBtn enlace-trabajo1" data-url="./../json/escritorio-arboreo.json">¡Materiales!</button>
+                        <div class="resultado"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sobre Nosotros -->
+        <section class="section2">
+            <div class="contenedor-section2">
+                <div class="imagen-section2">
+                    <img src="./imagenes/about+02.png" alt="foto de cocina">
+                </div>
+                <div class="sobre-nosotros">
+                    <h3 class="tituloh3">Sobre nosotros:</h3>
+                    <h2 class="titulo-vorrat">VORRAT</h2>
+                    <p class="parrafo-nosotros parrafos">Vorrath es un equipo de hábiles carpinteros de madera fina, capacitados formalmente en la Escuela de Muebles Finos Krenov, en Fort Bragg, California. Nuestra formación y experiencia nos dan una ventaja en las complejidades de la carpintería fina y la capacidad de desafiar los límites.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Comentarios de Clientes -->
+        <section class="section3">
+            <h2>Testimonio:</h2>
+            <p  class="parrafos">"Adam construyó un armario para mi nuevo estudio. Fue muy fácil trabajar con él y comprendió de inmediato exactamente lo que estaba buscando. Tenía sugerencias estupendas sobre el tipo de madera a utilizar y el diseño del proyecto en general, ofreciendo múltiples versiones para que yo eligiera. Todos los que han visto el proyecto terminado comentan sobre la alta calidad del trabajo y lo natural que se ve en el espacio. Estoy muy satisfecho con toda la experiencia. Definitivamente contactaré a Adam para futuros proyectos y lo recomendaría con gusto a cualquiera que busque un trabajo de alta calidad de un profesional."</p>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="logo-negro">
+            <img src="./imagenes/footer-logo+02.png" alt="logo de la empresa">
+        </div>
+        <div class="footer">
+            <p class="p-footer"> 2711 ADELINE STREET, OAKLAND, CA 94607</p>
+            <p class="p-footer">Nº 111-222-333</p>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img src="./imagenes/icons8-facebook-nuevo-50.png" alt="icono facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="logos-redes"><img src="./imagenes/icons8-instagram-50.png" alt="icono instagram"></a>
+        </div>
+        <p>© 2024 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

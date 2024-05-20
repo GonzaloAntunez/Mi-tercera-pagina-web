@@ -1,0 +1,12 @@
+{
+    "nombre": "Ebano Real",
+    "descripcion": "Este asiento ofrece una experiencia de alto nivel en términos de calidad y estilo.",
+    "dimensiones": {
+      "alto": "50 cm",
+      "ancho": "50 cm",
+      "profundidad": "80 cm"
+    },
+    "materiales": ["Madera de roble"],
+    "color": "roble",
+    "precio": 500
+  }

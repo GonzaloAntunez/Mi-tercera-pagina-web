@@ -1,0 +1,12 @@
+{
+  "nombre": "Escritorio Arbóreo",
+  "descripcion": "Un elegante escritorio hecho a mano con madera de roble.",
+  "dimensiones": {
+    "alto": "75 cm",
+    "ancho": "120 cm",
+    "profundidad": "60 cm"
+  },
+  "materiales": ["madera de roble", "acero"],
+  "color": "marrón",
+  "precio": 350
+}

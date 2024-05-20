@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="stylesheet" href="./../estilos/estilos.css">
+</head>
+<body>
+    <header>
+        <!-- Barra de Navegación -->
+        <nav class="menu-galeria">
+          <div class="contenedor-logo">
+             <a href="./../index.html"><img src="./../imagenes/header-logo-dark.png" alt="logo de la empresa" class="logo"></a>
+          </div>
+          <div>
+              <ul class="contenedor-lista">
+                  <li><a href="./../index.html">Inicio</a></li>
+                  <li><a href="./../views/galeria.html">Nuestros Trabajos</a></li>
+                  <li><a href="./presupuesto.html" class="marca">Presupuestos</a></li>
+                  <li><a href="./contacto.html">Contacto</a></li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+  <main>
+    <section class="section1-presupuesto">
+        <div class="contenedor-titulo">
+            <h2 class="titulo-pres">¿Tienes alguna consulta?</h2>
+            <p class="parrafo-pres parrafos">¡Si tienes alguna duda, no dudes en comunicarte con nosotros y en la brevedad resolveremos todas tus dudas!</p>
+        </div>
+        <div class="contenedor-formulario">
+            <form action="#" method="post" id="formulario" class="form">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+                <div>
+                    <label for="apellido">Aellido:</label>
+                    <input type="text" name="apellido" id="apellido">
+                </div>
+                <div>
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" name="telefono" id="telefono">
+                </div>
+                <div>
+                    <label for="correo">Correo electronico:</label>
+                    <input type="email" name="correo" id="correo">
+                </div>
+                <div>
+                    <label for="comentario">Dejanos tu comentario aqui</label>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe aqui..."></textarea>
+                </div>
+                <div>
+                    <input type="submit" id="enviar" value="Enviar" class="boton-form">
+                </div>
+            </form>
+        </div>
+    </section>
+  </main>
+   <!-- footer -->
+   <footer class="footer-presupuesto">
+        <div class="logo-negro">
+            <img src="./../imagenes/footer-logo+02.png" alt="logo de la empresa">
+        </div>
+        <div class="footer">
+            <p class="p-footer"> 2711 ADELINE STREET, OAKLAND, CA 94607</p>
+            <p class="p-footer">Nº 111-222-333</p>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img src="./../imagenes/icons8-facebook-nuevo-50.png" alt="icono facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="logos-redes"><img src="./../imagenes/icons8-instagram-50.png" alt="icono instagram"></a>
+        </div>
+        <p>© 2024 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+<script src="./../js/presupuesto.js"></script>
+</body>
+</html>
+
+

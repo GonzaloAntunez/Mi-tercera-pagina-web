@@ -1,0 +1,12 @@
+{
+    "nombre": "Cocina de Alta Gama",
+    "descripcion": "Una cocina de alta gama es un espacio de diseño elegante y funcionalidad avanzada",
+    "dimensiones": {
+      "alto": "90 cm",
+      "ancho": "220 cm",
+      "profundidad": "60 cm"
+    },
+    "materiales": ["madera de roble", "acero"],
+    "color": "marrón",
+    "precio": 350
+  }

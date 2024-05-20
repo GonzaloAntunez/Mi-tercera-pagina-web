@@ -1,0 +1,12 @@
+{
+    "nombre": "Cocina Elite",
+    "descripcion": "Una cocina de alta gama es un espacio de diseño elegante y funcionalidad avanzada",
+    "dimensiones": {
+      "alto": "100 cm",
+      "ancho": "200 cm",
+      "profundidad": "80 cm"
+    },
+    "materiales": ["Aluminio", "Acero"],
+    "color": "Plata",
+    "precio": 550
+  }
